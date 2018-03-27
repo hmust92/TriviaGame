@@ -1,0 +1,147 @@
+
+
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Trivia Game</title>
+
+		
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+	<body>
+
+		
+		<div id = starting_container>
+		
+			<h1 class = "icon">Premier League Football</h1>
+
+			<button id = starting_button>Start</button>
+		</div>
+
+
+		
+		<div id = game_container>
+			
+			<h1 class = "icon">Premier League Football Trivia</h1>
+
+			
+			<h1 id = "timer">Time Remaining: <span id = "timer_number">60 Seconds</span></h1>
+
+			
+
+			<h1>1. Which team has won the most Premier League titles?</h1>
+			
+				<input type="radio" name="q1" value="Manchester United">Manchester United 
+				<input type="radio" name="q1" value="Manchester City">Manchester City 
+				<input type="radio" name="q1" value="Chelsea">Chelsea 
+				<input type="radio" name="q1" value="Arsenal">Arsenal 
+			<!-- elements of type radio are rendered as small circles, which are filled or highlighted when selected. the kind we need for this activity. -->	
+
+			<h1>2. Who is the Premier League's highest goal scorer of all time?</h1>
+			
+				<input type="radio" name="q2" value="Wayne Rooney">Wayne Rooney
+				<input type="radio" name="q2" value="Andy Cole">Andy Cole 
+				<input type="radio" name="q2" value="Alan Shearer">Alan Shearer 
+				<input type="radio" name="q2" value="Thierry Henry">Thierry Henry 
+
+
+
+			<h1>3. What is the highest number of apperances by one player in the Premier League?</h1>
+			
+				<input type="radio" name="q3" value="609">609 
+				<input type="radio" name="q3" value="1002">1002 
+				<input type="radio" name="q3" value="653">653 
+				<input type="radio" name="q3" value="987">987 
+
+
+			<h1>4. Which player holds the record for the highest number of appearances in the Premier League?</h1>
+			
+				<input type="radio" name="q4" value="Ryan Giggs">Ryan Giggs 
+				<input type="radio" name="q4" value="Gareth Barry">Gareth Barry  
+				<input type="radio" name="q4" value="Frank Lampard">Frank Lampard
+				<input type="radio" name="q4" value="Gary Speed">Gary Speed 
+				 
+
+
+			<h1>5. What is the record for the highest number of goals scored in the Premier League?</h1>
+			
+				<input type="radio" name="q5" value="260">260 
+				<input type="radio" name="q5" value="208">208 
+				<input type="radio" name="q5" value="177">177 
+				<input type="radio" name="q5" value="175">175
+				
+			
+			<h1>6. Who is the Premier League's highest assister of all time?</h1>
+			
+				<input type="radio" name="q6" value="Cesc Fabregas">Cesc Fabregas 
+				<input type="radio" name="q6" value="Ryan Giggs">Ryan Giggs 
+				<input type="radio" name="q6" value="Wayne Rooney">Wayne Rooney 
+				<input type="radio" name="q6" value="Frank Lampard">Frank Lampard 
+				
+
+			<h1>7. What is the record for the highest number of assists in the Premier League?</h1>
+			
+				<input type="radio" name="q7" value="102">102 
+				<input type="radio" name="q7" value="103">103 
+				<input type="radio" name="q7" value="94">94 
+				<input type="radio" name="q7" value="162">162
+
+			<h1>8. Which team has won the most Premier League matches??</h1>
+			
+				<input type="radio" name="q8" value="Chelsea">Chelsea 
+				<input type="radio" name="q8" value="Liverpool">Liverpool 
+				<input type="radio" name="q8" value="Manchester United">Manchester United 
+				<input type="radio" name="q8" value="Arsenal">Arsenal 
+
+			<h1>9. Which team has lost the most Premier League matches</h1>
+			
+				<input type="radio" name="q9" value="West Ham">West Ham 
+				<input type="radio" name="q9" value="Everton">Everton 
+				<input type="radio" name="q9" value="Spurs">Spurs 
+				<input type="radio" name="q9" value="Newcastle">Newcastle
+
+			<h1>10. Which team has scored the most Premier League goals?</h1>
+			
+				<input type="radio" name="q10" value="Manchester United">Manchester United
+				<input type="radio" name="q10" value="Arsenal">Arsenal
+				<input type="radio" name="q10" value="Everton">Everton 
+				<input type="radio" name="q10" value="Chelsea">Chelsea
+
+
+				<br>
+				<br>
+
+
+			<button id = done_button>Donezo!</button>
+
+		</div>
+
+
+
+
+		
+		<div id = end_container>
+			
+			<h1 class = "icon">Premier League Trivia</h1>
+
+			<h1 id = "finished">Well done. You have finished!</h1>
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+			
+
+
+
+		<!-- Link in jQuery -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+		<!-- Link in JavaScript -->
+		<script src="assets/javascript/js.js"></script>
+		
+	</body>
+</html>
